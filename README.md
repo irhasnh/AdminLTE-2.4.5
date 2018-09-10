@@ -28,6 +28,13 @@ Cara pemanggilan Plugin di Controller
  * defined('PLUG_DATERANGE') OR define('PLUG_DATERANGE', 'daterange');
  * defined('PLUG_TEXTAREA')  OR define('PLUG_TEXTAREA', 'textarea_word');
  * defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
+ 
+ Setinga Nama Aplikasi di constanta
+* defined('APP_NAME')       OR define('APP_NAME', 'NameCompany');
+* defined('COPY_RIGHT')     OR define('COPY_RIGHT', '<strong >Copyright &copy; '.date('Y').' '.APP_NAME.'</strong>. All rights reserved.');
+* defined('APP_VERSION')    OR define('APP_VERSION', '1.0.0');
+Pemanggilan di view
+* <?= COPY_RIGHT; ?>
   
  
 
