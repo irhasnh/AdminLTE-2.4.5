@@ -30,7 +30,7 @@ Cara pemanggilan Plugin di Controller
  * defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
    <!-- Plugins css tambahan-->
   *<?php 
-  *if(!empty($plugins))
+  if(!empty($plugins))
   *{
   *  foreach ($plugins as $i => $value) 
   *  {
