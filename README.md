@@ -19,12 +19,20 @@ Cara pemanggilan Plugin di Controller
  */
  
  Setingan plugin di constanta
-///plugins define
-defined('PLUG_CHART')     OR define('PLUG_CHART', 'chart');
-defined('PLUG_DATATABLE') OR define('PLUG_DATATABLE', 'datatable');
-defined('PLUG_CHECKBOX')  OR define('PLUG_CHECKBOX', 'checkbox');
-defined('PLUG_DROPDOWN')  OR define('PLUG_DROPDOWN', 'dropdown');
-defined('PLUG_DATE')      OR define('PLUG_DATE', 'date');
-defined('PLUG_DATERANGE') OR define('PLUG_DATERANGE', 'daterange');
-defined('PLUG_TEXTAREA')  OR define('PLUG_TEXTAREA', 'textarea_word');
-defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
+ /*
+ * defined('PLUG_CHART')     OR define('PLUG_CHART', 'chart');
+ * defined('PLUG_DATATABLE') OR define('PLUG_DATATABLE', 'datatable');
+ * defined('PLUG_CHECKBOX')  OR define('PLUG_CHECKBOX', 'checkbox');
+ * defined('PLUG_DROPDOWN')  OR define('PLUG_DROPDOWN', 'dropdown');
+ * defined('PLUG_DATE')      OR define('PLUG_DATE', 'date');
+ * defined('PLUG_DATERANGE') OR define('PLUG_DATERANGE', 'daterange');
+ * defined('PLUG_TEXTAREA')  OR define('PLUG_TEXTAREA', 'textarea_word');
+ * defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
+ */
+
+
+
+
+
+
+
