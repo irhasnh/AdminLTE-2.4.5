@@ -34,7 +34,7 @@ Cara pemanggilan Plugin di Controller
 * defined('COPY_RIGHT')     OR define('COPY_RIGHT', '<strong >Copyright &copy; '.date('Y').' '.APP_NAME.'</strong>. All rights reserved.');
 * defined('APP_VERSION')    OR define('APP_VERSION', '1.0.0');
 Pemanggilan di view
-* <?= COPY_RIGHT; ?>
+ <?= COPY_RIGHT; ?>
   
  
 
