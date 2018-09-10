@@ -28,6 +28,16 @@ Cara pemanggilan Plugin di Controller
  * defined('PLUG_DATERANGE') OR define('PLUG_DATERANGE', 'daterange');
  * defined('PLUG_TEXTAREA')  OR define('PLUG_TEXTAREA', 'textarea_word');
  * defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
+   <!-- Plugins css tambahan-->
+  *<?php 
+  *if(!empty($plugins))
+  *{
+  *  foreach ($plugins as $i => $value) 
+  *  {
+  *   $this->load->view('plugins/'.$plugins[$i].'css');
+  *  }
+  *}
+  *?>
  
 
 
