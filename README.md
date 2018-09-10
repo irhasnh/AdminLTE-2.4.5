@@ -2,7 +2,7 @@
 Template Codeigniter AdminLTE-2.4.5 
 
 Cara pemanggilan Plugin di Controller
-/*
+
  * DATA PLUGIN  & pemanggilan
  * chart/grafik = PLUG_CHART
  * datatable    = PLUG_DATATABLE
@@ -16,10 +16,10 @@ Cara pemanggilan Plugin di Controller
  * cara memanggil plugin lebih dari satu : $data['plugins'] = [PLUG_CHART , PLUG_DATATABLE , PLUG_DROPDOWN ]; 
  * cara memanggil 1 plugin               : $data['plugins'] = [PLUG_CHART]; 
  * jika tidak menggunakan plugin         : $data['plugins'] = [];
- */
+ 
  
  Setingan plugin di constanta
- /*
+ 
  * defined('PLUG_CHART')     OR define('PLUG_CHART', 'chart');
  * defined('PLUG_DATATABLE') OR define('PLUG_DATATABLE', 'datatable');
  * defined('PLUG_CHECKBOX')  OR define('PLUG_CHECKBOX', 'checkbox');
@@ -28,7 +28,7 @@ Cara pemanggilan Plugin di Controller
  * defined('PLUG_DATERANGE') OR define('PLUG_DATERANGE', 'daterange');
  * defined('PLUG_TEXTAREA')  OR define('PLUG_TEXTAREA', 'textarea_word');
  * defined('PLUG_TIME')      OR define('PLUG_TIME', 'time');
- */
+ 
 
 
 
