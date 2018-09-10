@@ -33,8 +33,9 @@ Cara pemanggilan Plugin di Controller
 * defined('APP_NAME')       OR define('APP_NAME', 'NameCompany');
 * defined('COPY_RIGHT')     OR define('COPY_RIGHT', '<strong >Copyright &copy; '.date('Y').' '.APP_NAME.'</strong>. All rights reserved.');
 * defined('APP_VERSION')    OR define('APP_VERSION', '1.0.0');
+
 Pemanggilan di view
-<?php echo COPY_RIGHT; ?>
+* echo COPY_RIGHT
   
  
 
